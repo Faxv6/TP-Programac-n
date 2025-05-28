@@ -65,7 +65,7 @@ class ContactView:
         system("cls")
         print(" Editar contacto ".center(50, "#"))
         print("-" * 50)
-        id = input("Ingrese el id del contacto a editar: ")
+        id = int(input("Ingrese el id del contacto a editar: "))
         print("-" * 50)
         name = input("Ingrese el nombre del contacto: ")
         print("-" * 50)
